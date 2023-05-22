@@ -125,14 +125,14 @@ contract Mycontract {
 ```
   ## NOTLAR
 * **'uint'** is keyword is used to declare a variable in Solidity.
-* **'constant'** is keyword is used to make a variable <u>immutable(değişmez)</u> in Solidity.
+* **'constant'** is keyword is used to make a variable <ins>immutable(değişmez)</ins> in Solidity.
 * **'storage'** is the data of a contract stored in Solidity.
-* The purpose of the **"event"** keyword in Solidity is <u>tracking the operations.</u>
-*  **"msg.sender"** is represent <u>the address of the function caller.</u>
-* The purpose of the **"mapping"** data type is <u>to store data</u> in Solidity.
+* The purpose of the **"event"** keyword in Solidity is <ins>tracking the operations.</ins>
+*  **"msg.sender"** is represent <ins>the address of the function caller.</ins>
+* The purpose of the **"mapping"** data type is <ins>to store data</ins> in Solidity.
 * When the specified condition is false the **"require"** statement throw an error.
-* The purpose of **"view"** functions is <u>to read data</u> in Solidity.
-* The **"payable"** keyword mean is that <u>it allows sending ether to the contract</u> in Solidity.
+* The purpose of **"view"** functions is <ins>to read data</ins> in Solidity.
+* The **"payable"** keyword mean is that <ins>it allows sending ether to the contract</ins> in Solidity.
 * **"uint256"** represent 256-bit integers,while **"uint"** represents a general integer type.
 * 'When a function is called, but no matching function is found' then **'fallback'** function called in Solidity.
 * **"constructor"** function executes only once when the contract is created.
